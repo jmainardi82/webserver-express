@@ -9,6 +9,6 @@ hbs.registerHelper('capitalizar', (texto) => {
     palabras.forEach((palabra, idx) => {
         palabras[idx] = palabra.charAt(0).toUpperCase() + palabra.slice(1).toLowerCase();
     });
-    return palabra.join(' ');
+    return palabras.join(' ');
 
 });
